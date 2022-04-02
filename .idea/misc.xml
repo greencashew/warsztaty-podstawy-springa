@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01.3-spring-dependency-injection/pom.xml" />
+        <option value="$PROJECT_DIR$/04.1-application-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/link-shortener-project/pom.xml" />
+        <option value="$PROJECT_DIR$/03.2-spring-dependency-injection-inversion/pom.xml" />
+        <option value="$PROJECT_DIR$/04.2-application-properties-solved/pom.xml" />
+        <option value="$PROJECT_DIR$/00-demo-application/pom.xml" />
+        <option value="$PROJECT_DIR$/00.1-demo-application/pom.xml" />
+        <option value="$PROJECT_DIR$/05.1-link-shortener-empty-project/pom.xml" />
+        <option value="$PROJECT_DIR$/05.2-link-shortener-rest-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/05.1-link-shortener-spring-with-heroku/pom.xml" />
+        <option value="$PROJECT_DIR$/05.2-link-shortener-rest-controller-with-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/05.3-link-shortener-service-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/05.3-link-shortener-service-db-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/05.3-link-shortener-service-layer/pom.xml" />
+        <option value="$PROJECT_DIR$/05.4-link-shortener-db-integration/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
