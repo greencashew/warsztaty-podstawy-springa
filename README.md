@@ -170,3 +170,13 @@ Zachowanie:
 - W przypadku podania daty wcześniejszej niż aktualna pojawia się następujący komunikat:
 
 ![Spodziewany Rezultat](05.7-link-shortener-bean-validation/expected_result.png)
+
+### 05-link-shortener-solved
+
+#### Zmiany
+
+- Dodanie pełnej implementacji pozostałych CRUD-owych operacji:
+  - Usuwanie linku
+  - Aktualizacja linku
+  - Otrzymywanie danych o skróconym linku
+- Utworzenie scheduler-a usuwającego przeterminowane skrócone linki
