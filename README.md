@@ -55,6 +55,8 @@ Katalogi **05.*** zawierają kolejne etapy tworzenia projektu w spring framework
 
 ![Spodziewany Rezultat](05.1-link-shortener-spring-with-heroku/expected_result.png)
 
+----
+
 ### 05.2-link-shortener-rest-controller-with-swagger
 
 #### Zmiany
@@ -80,6 +82,8 @@ Zachowanie:
 
 - Wywołany endpoint powinien zwrócić wartości wpisane **na stałe w kodzie** kontrolerów.
 
+----
+
 ### 05.3-link-shortener-service-layer
 
 #### Zmiany
@@ -101,6 +105,8 @@ Zachowanie:
 - Zablokowanie dodawania linków o takim samym identyfikatorze (aliasie)
 - Obsługa wyjątków
 - Napisanie testów serwisu
+
+----
 
 ### 05.4-link-shortener-basic-frontend
 
@@ -130,6 +136,8 @@ Zachowanie:
 
 ![Spodziewany Rezultat](05.5-link-shortener-db-integration/expected_result.png)
 
+----
+
 ### 05.6-link-shortener-exception-handling-with-controller-advisor
 
 #### Zmiany
@@ -147,6 +155,8 @@ Zachowanie:
 - W przypadku próby przekierowania linku o nieprawidłowym identyfikatorze pojawia się następujący komunikat:
 
 ![Przekierowanie nieprawidłowy identyfikator](05.6-link-shortener-exception-handling-with-controller-advisor/redirect-incorrect-identifier.png)
+
+----
 
 ### 05.7-link-shortener-bean-validation
 
@@ -170,6 +180,8 @@ Zachowanie:
 - W przypadku podania daty wcześniejszej niż aktualna pojawia się następujący komunikat:
 
 ![Spodziewany Rezultat](05.7-link-shortener-bean-validation/expected_result.png)
+
+----
 
 ### 05-link-shortener-solved
 
