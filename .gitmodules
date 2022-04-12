@@ -1,3 +1,3 @@
-[submodule "link-shortener-full-project"]
-	path = link-shortener-full-project
+[submodule "05-link-shortener-solved"]
+	path = 05-link-shortener-solved
 	url = git@github.com:greencashew/spring-link-shortener.git
