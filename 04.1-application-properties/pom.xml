@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dev.greencashew</groupId>
-    <artifactId>applicationproperties</artifactId>
+    <artifactId>04.1-application-properties</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>04.1-application-properties</name>
     <description>04.1-application-properties</description>
