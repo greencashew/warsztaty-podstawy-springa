@@ -5,7 +5,6 @@ import dev.greencashew.linkshortener.link.api.LinkService;
 import dev.greencashew.linkshortener.link.api.exception.LinkNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
 
@@ -16,14 +15,12 @@ class LinkServiceImpl implements LinkService {
     final HashMap<String, LinkDto> linkRepository = new HashMap<>();
 
     @Override
-    @Transactional
     public LinkDto createLink(final LinkDto createLink) {
         linkRepository.put(createLink.id(), createLink);
         return createLink;
     }
 
     @Override
-    @Transactional
     public LinkDto gatherLinkAndIncrementVisits(final String id) {
         final LinkDto linkDto = linkRepository.get(id);
         if (linkDto == null) {

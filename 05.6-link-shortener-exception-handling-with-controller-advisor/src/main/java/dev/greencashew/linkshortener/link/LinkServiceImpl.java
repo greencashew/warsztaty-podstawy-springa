@@ -5,6 +5,7 @@ import dev.greencashew.linkshortener.link.api.LinkService;
 import dev.greencashew.linkshortener.link.api.exception.LinkAlreadyExistsException;
 import dev.greencashew.linkshortener.link.api.exception.LinkNotFoundException;
 import lombok.AllArgsConstructor;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -12,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 @AllArgsConstructor
 class LinkServiceImpl implements LinkService {
 
-    private final LinkRepository repository;
+    private final CrudRepository<LinkEntity, String> repository;
 
     @Override
     @Transactional
